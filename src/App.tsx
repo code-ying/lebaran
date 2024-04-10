@@ -15,6 +15,9 @@ function App() {
   return (
     <>
       <div className='pt-20'>
+        <h1 className='text-4xl font-bold pb-20'>
+          Saya Muhammad Raihan Rahmadian mengucapkan
+        </h1>
         <h1 className='text-5xl text-bold font-sans uppercase'>
           Minal Aidzin Wal Faidzin
         </h1>
@@ -25,7 +28,7 @@ function App() {
           {button}
         </h1>
       </div>
-      <div className='pt-40'>
+      <div className='pt-20'>
         <button onClick={handleForgive} className='text-3xl bg-green-300 px-2 py-2 border rounded border-black m-5'>
           Maafkan Saya
         </button>
