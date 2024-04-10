@@ -4,7 +4,7 @@ import './App.css'
 function App() {
   const [button, setButton] = useState('')
   const handleForgive = () => {
-    setButton('maafkan saya');
+    setButton('Iya saya maafkan');
   };
 
   const handleNotForgive = () => {
