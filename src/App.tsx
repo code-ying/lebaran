@@ -28,7 +28,7 @@ function App() {
           {button}
         </h1>
       </div>
-      <div className='pt-20'>
+      <div className='pt-10'>
         <button onClick={handleForgive} className='text-3xl bg-green-300 px-2 py-2 border rounded border-black m-5'>
           Maafkan Saya
         </button>
